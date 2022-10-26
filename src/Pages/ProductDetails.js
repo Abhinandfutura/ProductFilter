@@ -3,7 +3,7 @@ import styled from "styled-components/macro";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import CircularProgress from "@mui/material/CircularProgress";
-function CarDetailes() {
+function ProductDetails() {
   let { id } = useParams();
 
   const [loading, setLoading] = useState(false);
@@ -64,7 +64,7 @@ function CarDetailes() {
   );
 }
 
-export default CarDetailes;
+export default ProductDetails;
 
 const Loader = styled(CircularProgress)`
   && {
