@@ -8,7 +8,7 @@ import {
 import Header from "./Header/Header";
 import styled from "styled-components";
 import Home from "./Pages/Home";
-import CarDetails from "./Pages/CarDetailes";
+import ProductDetails from "./Pages/ProductDetails";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Switch>
             <Route path="/" element={<Home />} />
-            <Route path="/product-detailes/:id" element={<CarDetails />} />
+            <Route path="/product-detailes/:id" element={<ProductDetails />} />
           </Switch>
         </Routes>
       </Router>
